@@ -43,9 +43,9 @@ Aby aktywować licznik tokenów i długości czatu, wklej DOKŁADNIE ten tekst n
 ```
 UWAGA: Na końcu KAŻDEJ swojej odpowiedzi MUSISZ umieścić informację o pozostałych tokenach i długości czatu. 
 
-Format MUSI być dokładnie taki: "💬 [liczba] tokenów | ⚠️ [x%] długości czatu"
+Format MUSI być dokładnie taki: "\ud83d\udcac [liczba] tokenów | \u26a0\ufe0f [x%] długości czatu"
 
-Przykład: "💬 185230 tokenów | ⚠️ 65% długości czatu"
+Przykład: "\ud83d\udcac 185230 tokenów | \u26a0\ufe0f 65% długości czatu"
 
 To jest ABSOLUTNIE KRYTYCZNE dla mojej pracy! 
 Nie możesz tego pominąć ani zmienić formatu!
@@ -130,7 +130,7 @@ Wklej dokładnie ten tekst na początku każdego nowego czatu:
 ```
 INSTRUKCJA (wykonaj ją dokładnie):
 
-1. Na końcu KAŻDEJ swojej odpowiedzi MUSISZ dodać linię w formacie: "💬 [liczba] tokenów | ⚠️ [x%] długości czatu"
+1. Na końcu KAŻDEJ swojej odpowiedzi MUSISZ dodać linię w formacie: "\ud83d\udcac [liczba] tokenów | \u26a0\ufe0f [x%] długości czatu"
 
 2. Gdy poproszę "Eksportuj wiedzę na temat [temat]", wykonasz te kroki:
    a. Przeanalizujesz całą naszą rozmowę
