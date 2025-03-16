@@ -1,0 +1,22 @@
+{
+  "google-workspace-mcp": {
+    "command": "docker",
+    "args": [
+      "run",
+      "--rm",
+      "-i",
+      "-v", "$HOME/.mcp/google-workspace-mcp:/app/config",
+      "-v", "$HOME/Documents/workspace-mcp-files:/app/workspace",
+      "-e", "GOOGLE_CLIENT_ID",
+      "-e", "GOOGLE_CLIENT_SECRET",
+      "-e", "LOG_MODE=strict",
+      "ghcr.io/aaronsb/google-workspace-mcp:latest"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_ID": "YOUR_CLIENT_ID",
+      "GOOGLE_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
+    },
+    "autoApprove": [],
+    "disabled": false
+  }
+}
